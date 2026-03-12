@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@layer utilities {
+  .neon-text-purple {
+    text-shadow: 0 0 10px #B026FF, 0 0 20px #B026FF;
+  }
+  .neon-text-green {
+    text-shadow: 0 0 10px #00FF9F, 0 0 20px #00FF9F;
+  }
+  .neon-text-orange {
+    text-shadow: 0 0 10px #FF6B00, 0 0 20px #FF6B00;
+  }
+  .neon-border-purple {
+    box-shadow: 0 0 5px #B026FF, 0 0 10px #B026FF, inset 0 0 5px rgba(176, 38, 255, 0.1);
+  }
+  .neon-border-green {
+    box-shadow: 0 0 5px #00FF9F, 0 0 10px #00FF9F, inset 0 0 5px rgba(0, 255, 159, 0.1);
+  }
+}
